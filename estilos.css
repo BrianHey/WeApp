@@ -1,0 +1,167 @@
+th, tr{
+	
+	text-align: center;	
+}
+
+body{
+	background: #f5f5f5;
+	color: #37474f;
+	overflow-x: hidden;
+	display: flex;
+}
+
+#tabla-formulario{
+	padding: 15px;
+	color: #37474f;
+	background:rgba(117,117,117, 0.1);
+	border: solid 0.5px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px 1px;
+	margin-left: 25%;
+}
+h3{
+	text-align: center;
+	width: 100%;
+}
+
+#tabla-formulario input:focus{
+	outline: none;
+   border: 0;
+}
+
+thead{
+	background: #00695c;
+	color:#e8f5e9;
+}
+
+button{
+	background: #00695c;
+	color:#e8f5e9;
+	border-radius: 5px;
+	transition: all 1s;
+}
+
+button:hover{
+	background: #004d40 ;
+}
+
+span{
+	margin-left: -25px;
+	margin-right: 4px;
+	font-style: 
+}
+
+#cuerpo-tabla input{
+	width: 60%;
+	margin: auto;
+}
+
+#accordion{
+	width: 100%;
+
+	color: black;
+	background: #f5f5f5;
+}
+	
+#informacion{
+	color: black;
+}
+
+#menu{
+	width: 21%;
+	height: 100vh;
+	border-right: solid 0.5px;
+	position: fixed;
+
+}
+
+#inicio{
+	background: rgb(117,117,117, 0.1);
+	height: 100vh;
+}
+
+#inicio h1{
+	text-align: center;
+}
+
+#inicio #contenido #bienvenido{
+	color: #37474f;
+	position: absolute;
+	top: 200px;
+	left: 40%;
+}
+
+#inicio #contenido #selector{
+	position: absolute;
+	top: 300px;
+	left: 39%;
+	text-align: center;
+	color: #37474f;
+}
+
+#InfoWelcome{
+	width: 700px;
+	height: 500px;
+	padding: 15px;
+	margin-left: 75%;
+	margin-top: 100px;
+	background:rgb(117,117,117, 0.1);
+	border: solid 1px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 3px 1px;
+	position: relative;
+}
+
+#logoudo{
+
+	width: 5%;
+	height: 5%
+}
+
+#logoapp{
+
+	width: 15%;
+	height: 5%;
+}
+
+#logoappMenu{
+
+	width: 50%;
+	height: 5%;
+	margin-top: -60px;
+}
+
+footer{
+	text-align: center;
+}
+
+.phils{
+		line-height: 80%;
+}
+
+.morris-hover-point{
+	color: red;
+}
+
+
+.modal-dialog .modal-header, .modal-footer{
+	border: none;
+}
+
+
+/* Etiquetas de menu */
+
+/*.card-body{
+	background: yellow;
+	color: red;
+}
+
+.card-header a{
+	color: black;
+}
+
+
+.card-header{
+	background: green;
+	color: purple;
+}*/
